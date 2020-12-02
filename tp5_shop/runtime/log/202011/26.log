@@ -1,0 +1,50 @@
+---------------------------------------------------------------
+
+[2020-11-26T00:41:02+08:00] 127.0.0.1 GET www.shop.com/public/admin/index
+[运行时间：0.019806s] [吞吐率：50.49req/s] [内存消耗：2,037.66kb] [文件加载：70]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=4392684544; Hm_lvt_080836300300be57b7f34f4b3e97d911=1606144878; PHPSESSID=8tv5b75b8pf9m2utj2h75gq8hn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-11-26T00:41:23+08:00] 127.0.0.1 GET www.shop.com/public/admin/cate/index
+[运行时间：0.054703s] [吞吐率：18.28req/s] [内存消耗：3,541.13kb] [文件加载：86]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=4392684544; Hm_lvt_080836300300be57b7f34f4b3e97d911=1606144878; PHPSESSID=8tv5b75b8pf9m2utj2h75gq8hn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.shop.com/public/admin/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\application\admin\view\cate\index.html [ array (
+  0 => 'list',
+  1 => 'total',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024076s ] mysql:host=127.0.0.1;port=3306;dbname=www_shop_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `category` [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT * FROM `category` LIMIT 0,5 [ RunTime:0.000190s ]

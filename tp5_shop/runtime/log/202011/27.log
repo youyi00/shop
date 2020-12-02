@@ -1,0 +1,133 @@
+---------------------------------------------------------------
+
+[2020-11-27T22:43:48+08:00] 127.0.0.1 GET www.shop.com/public/admin/index
+[运行时间：0.152695s] [吞吐率：6.55req/s] [内存消耗：1,990.98kb] [文件加载：68]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4392684544; Hm_lvt_080836300300be57b7f34f4b3e97d911=1606144878',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'purpose' => 'prefetch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-11-27T22:43:48+08:00] 127.0.0.1 GET www.shop.com/public/admin/login/index
+[运行时间：0.032910s] [吞吐率：30.39req/s] [内存消耗：2,025.55kb] [文件加载：68]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4392684544; Hm_lvt_080836300300be57b7f34f4b3e97d911=1606144878; PHPSESSID=89j026n98pf0hv2caip501qn5a',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'purpose' => 'prefetch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\application\admin\view\login\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-11-27T22:43:48+08:00] 127.0.0.1 GET www.shop.com/public/admin/login/verify
+[运行时间：0.087163s] [吞吐率：11.47req/s] [内存消耗：1,980.48kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4392684544; Hm_lvt_080836300300be57b7f34f4b3e97d911=1606144878; PHPSESSID=89j026n98pf0hv2caip501qn5a',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.shop.com/public/admin/login/index',
+  'purpose' => 'prefetch',
+  'accept' => 'application/signed-exchange;v=b3;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-11-27T22:43:49+08:00] 127.0.0.1 GET www.shop.com/public/admin/login/verify
+[运行时间：0.017329s] [吞吐率：57.71req/s] [内存消耗：1,980.25kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4392684544; Hm_lvt_080836300300be57b7f34f4b3e97d911=1606144878; PHPSESSID=89j026n98pf0hv2caip501qn5a',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.shop.com/public/admin/login/index',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-11-27T22:43:59+08:00] 127.0.0.1 POST www.shop.com/public/admin/login/save
+[运行时间：0.075206s] [吞吐率：13.30req/s] [内存消耗：3,294.41kb] [文件加载：80]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=4392684544; Hm_lvt_080836300300be57b7f34f4b3e97d911=1606144878; PHPSESSID=89j026n98pf0hv2caip501qn5a',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.shop.com/public/admin/login/index',
+  'origin' => 'http://www.shop.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'content-length' => '38',
+  'connection' => 'close',
+  'host' => 'www.shop.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'code' => 'mq',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025696s ] mysql:host=127.0.0.1;port=3306;dbname=www_shop_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.013383s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000592s ]
+---------------------------------------------------------------
+
+[2020-11-27T22:44:01+08:00] 127.0.0.1 GET www.shop.com/public/admin/index/index
+[运行时间：0.016170s] [吞吐率：61.84req/s] [内存消耗：2,038.06kb] [文件加载：70]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4392684544; Hm_lvt_080836300300be57b7f34f4b3e97d911=1606144878; PHPSESSID=89j026n98pf0hv2caip501qn5a',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.shop.com/public/admin/login/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\application\admin\view\index\index.html [ array (
+) ]

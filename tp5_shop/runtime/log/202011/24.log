@@ -1,0 +1,208 @@
+---------------------------------------------------------------
+
+[2020-11-24T22:55:20+08:00] 127.0.0.1 GET www.shop.com/public/admin/cate/index
+[运行时间：0.026736s] [吞吐率：37.40req/s] [内存消耗：3,542.11kb] [文件加载：86]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Huiskin=default; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=4392684544; Hm_lvt_080836300300be57b7f34f4b3e97d911=1606144878; PHPSESSID=dl0453f8v1cmb3516hmqp6anmn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.shop.com/public/admin/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\application\admin\view\cate\index.html [ array (
+  0 => 'list',
+  1 => 'total',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000603s ] mysql:host=127.0.0.1;port=3306;dbname=www_shop_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `category` [ RunTime:0.000130s ]
+[ sql ] [ SQL ] SELECT * FROM `category` LIMIT 0,15 [ RunTime:0.000162s ]
+---------------------------------------------------------------
+
+[2020-11-24T22:55:39+08:00] 127.0.0.1 GET www.shop.com/public/admin/cate/index
+[运行时间：0.025445s] [吞吐率：39.30req/s] [内存消耗：3,542.19kb] [文件加载：86]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Huiskin=default; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=4392684544; Hm_lvt_080836300300be57b7f34f4b3e97d911=1606144878; PHPSESSID=dl0453f8v1cmb3516hmqp6anmn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.shop.com/public/admin/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\application\admin\view\cate\index.html [ array (
+  0 => 'list',
+  1 => 'total',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000640s ] mysql:host=127.0.0.1;port=3306;dbname=www_shop_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `category` [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT * FROM `category` LIMIT 0,15 [ RunTime:0.000208s ]
+---------------------------------------------------------------
+
+[2020-11-24T22:56:47+08:00] 127.0.0.1 GET www.shop.com/public/admin/cate/index
+[运行时间：0.028672s] [吞吐率：34.88req/s] [内存消耗：3,542.19kb] [文件加载：86]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Huiskin=default; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=4392684544; Hm_lvt_080836300300be57b7f34f4b3e97d911=1606144878; PHPSESSID=dl0453f8v1cmb3516hmqp6anmn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.shop.com/public/admin/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\application\admin\view\cate\index.html [ array (
+  0 => 'list',
+  1 => 'total',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000614s ] mysql:host=127.0.0.1;port=3306;dbname=www_shop_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `category` [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT * FROM `category` LIMIT 0,15 [ RunTime:0.000214s ]
+---------------------------------------------------------------
+
+[2020-11-24T22:57:16+08:00] 127.0.0.1 GET www.shop.com/public/admin/cate/index
+[运行时间：0.025568s] [吞吐率：39.11req/s] [内存消耗：3,542.19kb] [文件加载：86]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Huiskin=default; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=4392684544; Hm_lvt_080836300300be57b7f34f4b3e97d911=1606144878; PHPSESSID=dl0453f8v1cmb3516hmqp6anmn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.shop.com/public/admin/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\application\admin\view\cate\index.html [ array (
+  0 => 'list',
+  1 => 'total',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000590s ] mysql:host=127.0.0.1;port=3306;dbname=www_shop_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `category` [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SELECT * FROM `category` LIMIT 0,15 [ RunTime:0.000221s ]
+---------------------------------------------------------------
+
+[2020-11-24T22:57:29+08:00] 127.0.0.1 GET www.shop.com/public/admin/cate/index
+[运行时间：0.042317s] [吞吐率：23.63req/s] [内存消耗：3,542.19kb] [文件加载：86]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Huiskin=default; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=4392684544; Hm_lvt_080836300300be57b7f34f4b3e97d911=1606144878; PHPSESSID=dl0453f8v1cmb3516hmqp6anmn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.shop.com/public/admin/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\application\admin\view\cate\index.html [ array (
+  0 => 'list',
+  1 => 'total',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015998s ] mysql:host=127.0.0.1;port=3306;dbname=www_shop_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `category` [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT * FROM `category` LIMIT 0,15 [ RunTime:0.000136s ]
+---------------------------------------------------------------
+
+[2020-11-24T22:58:57+08:00] 127.0.0.1 GET www.shop.com/public/admin/cate/index
+[运行时间：0.040720s] [吞吐率：24.56req/s] [内存消耗：3,542.11kb] [文件加载：86]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Huiskin=default; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=4392684544; Hm_lvt_080836300300be57b7f34f4b3e97d911=1606144878; PHPSESSID=dl0453f8v1cmb3516hmqp6anmn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.shop.com/public/admin/cate/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\application\admin\view\cate\index.html [ array (
+  0 => 'list',
+  1 => 'total',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012466s ] mysql:host=127.0.0.1;port=3306;dbname=www_shop_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `category` [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT * FROM `category` LIMIT 0,15 [ RunTime:0.000157s ]
+---------------------------------------------------------------
+
+[2020-11-24T22:58:59+08:00] 127.0.0.1 GET www.shop.com/public/admin/cate/index
+[运行时间：0.025140s] [吞吐率：39.78req/s] [内存消耗：3,542.11kb] [文件加载：86]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Huiskin=default; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; pgv_pvi=4392684544; Hm_lvt_080836300300be57b7f34f4b3e97d911=1606144878; PHPSESSID=dl0453f8v1cmb3516hmqp6anmn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.shop.com/public/admin/cate/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\application\admin\view\cate\index.html [ array (
+  0 => 'list',
+  1 => 'total',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000644s ] mysql:host=127.0.0.1;port=3306;dbname=www_shop_com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `category` [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SELECT * FROM `category` LIMIT 0,15 [ RunTime:0.000264s ]

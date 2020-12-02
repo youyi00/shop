@@ -1,0 +1,81 @@
+---------------------------------------------------------------
+
+[2020-11-29T01:18:34+08:00] 127.0.0.1 GET www.shop.com/public/admin/index
+[运行时间：0.163601s] [吞吐率：6.11req/s] [内存消耗：1,990.98kb] [文件加载：68]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4392684544; Hm_lvt_080836300300be57b7f34f4b3e97d911=1606144878',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'purpose' => 'prefetch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-11-29T01:18:34+08:00] 127.0.0.1 GET www.shop.com/public/admin/login/index
+[运行时间：0.041573s] [吞吐率：24.05req/s] [内存消耗：2,025.55kb] [文件加载：68]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4392684544; Hm_lvt_080836300300be57b7f34f4b3e97d911=1606144878; PHPSESSID=2pi80eko5ihcv525iqhmecek6m',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'purpose' => 'prefetch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\application\admin\view\login\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-11-29T01:18:34+08:00] 127.0.0.1 GET www.shop.com/public/admin/login/verify
+[运行时间：0.088322s] [吞吐率：11.32req/s] [内存消耗：1,980.48kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4392684544; Hm_lvt_080836300300be57b7f34f4b3e97d911=1606144878; PHPSESSID=2pi80eko5ihcv525iqhmecek6m',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.shop.com/public/admin/login/index',
+  'purpose' => 'prefetch',
+  'accept' => 'application/signed-exchange;v=b3;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-11-29T01:18:34+08:00] 127.0.0.1 GET www.shop.com/public/admin/login/verify
+[运行时间：0.016793s] [吞吐率：59.55req/s] [内存消耗：1,980.25kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\www.shop.com\tp5_shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4392684544; Hm_lvt_080836300300be57b7f34f4b3e97d911=1606144878; PHPSESSID=2pi80eko5ihcv525iqhmecek6m',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.shop.com/public/admin/login/index',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.shop.com',
+)
+[ info ] [ PARAM ] array (
+)
