@@ -1,0 +1,70 @@
+
+
+{extend name='layout'}{/extend}
+{block name="right"}
+
+<nav class="breadcrumb">
+	<a href="{:url('Index/index')}"><i class="Hui-iconfont">&#xe67f;</i>
+	首页</a>
+	<span class="c-gray en">&gt;</span>
+	分类管理
+	<span class="c-gray en">&gt;</span>
+    分类列表
+    <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px;margin-right:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a>
+</nav>
+<div class="page-container">
+	<div class="text-c">
+		<a class="btn btn-primary radius" href="{:url('Index/index')}">关闭选项卡</a>
+	 <!-- <span class="select-box inline">
+		<select name="" class="select">
+			<option value="0">全部分类</option>
+			<option value="1">分类一</option>
+			<option value="2">分类二</option>
+		</select>
+		</span> --> 
+		<input type="text" name="" placeholder=" 商品名称" style="width:250px" class="input-text">
+		<button class="btn btn-success" type="submit"><i class="Hui-iconfont">&#xe665;</i> 搜商品</button>
+	</div>
+	<div class="cl pd-5 bg-1 bk-gray mt-20">
+		 <span class="l">
+			 <a class="btn btn-primary radius" data-title="添加" href="{:url('create')}" >
+				<i class="Hui-iconfont">&#xe600;</i> 添加
+			</a>
+		</span>
+		 <span class="r">共有数据：<strong>{$total}</strong> 条</span> 
+	</div>
+	<div class="mt-20">
+		<table class="table table-border table-bordered table-bg table-hover table-sort table-responsive">
+			<thead>
+				<tr class="text-c">
+					<th>ID</th>
+					<th>标题</th>
+					<th>图片</th>
+					<th>更新时间</th>
+					<th>排序</th>
+					<th>状态</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+			<tbody>
+			{volist name='$list' id='vo'}
+				<tr class="text-c">
+					<td>{$vo.id}</td>
+					<td>{$vo.title}</td>
+					<td><img style="width:10em;" src="{$vo.img}"></td>
+					<td>{$vo.update_time}</td>
+					<td>{$vo.sort}</td>
+					<td class="td-status"><span class="label label-success radius">{$vo.status}</span></td>
+					<td class="f-14 td-manage">
+						<a href="{:url('edit',['id' => $vo.id])}" class="ml-5 btn btn-success radius" title="编辑">编辑</a> 
+						<a class="ml-5 del btn btn-danger radius" link="{:url('delete',['id'=>$vo.id])}">删除</a>
+					</td>
+				</tr>
+			{/volist}
+			</tbody>
+		</table>
+		{$list|raw}
+	</div>
+</div>
+
+{/block}
